@@ -1,7 +1,7 @@
 from pydantic import BaseModel  # Converter a Classe em JSON.
 
-from .pastExperienceDto import PastExperience
-from .internetTestDto import InternetTest
+from dtos.pastExperienceDto import PastExperience
+from dtos.internetTestDto import InternetTest
 
 
 class JobPro(BaseModel):

@@ -1,4 +1,4 @@
-class AgeScoreCalculator:
+class AgeCalculator:
     age: int
 
     def __init__(self, age):
@@ -6,4 +6,4 @@ class AgeScoreCalculator:
 
     def calculator(self):
         if self.age < 18:
-            return 'Não elegível.'
+            return 'Your age is under 18.'

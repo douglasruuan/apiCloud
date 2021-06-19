@@ -1,4 +1,4 @@
-class CalculateScoreResult:
+class OutputResult:
     score: int
     selected_project: str
     eligible_projects: []

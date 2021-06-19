@@ -1,13 +1,13 @@
 from dtos.pastExperienceDto import PastExperience
 
 
-class ProSellOrSupport:
+class ProSellOrSupportCalculator:
     past_experience: PastExperience
 
     def __init__(self, past_experience: PastExperience):
         self.past_experience = past_experience
 
-    def calculatorSellSupport(self):
+    def calculator_sell_or_support(self):
 
         if self.past_experience.sales and self.past_experience.support:
             return 8
