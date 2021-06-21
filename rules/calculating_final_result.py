@@ -1,11 +1,11 @@
-from rules.ageCalculator import AgeCalculator
-from rules.wrtingEntryScoreCalculator import WrtingEntryScoreCalculator
-from rules.speedInternetCalculator import SpeedInternetCalculator
-from rules.schoolCalculator import SchoolCalculator
-from rules.proSellOrSupportCalculator import ProSellOrSupportCalculator
-from rules.referalCodeCalculator import ReferralCodeCalculator
-from dtos.outputResultDto import OutputResult
-from dtos.inputJobProDto import JobPro
+from rules.age_calculator import AgeCalculator
+from rules.wrting_entry_score_calculator import WrtingEntryScoreCalculator
+from rules.speed_internet_calculator import SpeedInternetCalculator
+from rules.school_calculator import SchoolCalculator
+from rules.pro_sell_or_support_calculator import ProSellOrSupportCalculator
+from rules.referal_code_calculator import ReferralCodeCalculator
+from dtos.output_result_dto import OutputResult
+from dtos.input_job_pro_dto import JobPro
 
 
 class CalculatingFinalResult:

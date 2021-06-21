@@ -1,4 +1,4 @@
-from dtos.internetTestDto import InternetTest
+from dtos.internet_test_dto import InternetTest
 
 
 class SpeedInternetCalculator:

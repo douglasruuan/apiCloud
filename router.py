@@ -1,5 +1,5 @@
-from dtos.inputJobProDto import JobPro
-from rules.calculatingFinalResult import CalculatingFinalResult
+from dtos.input_job_pro_dto import JobPro
+from rules.calculating_final_result import CalculatingFinalResult
 
 from fastapi import FastAPI
 

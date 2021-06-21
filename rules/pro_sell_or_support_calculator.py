@@ -1,4 +1,4 @@
-from dtos.pastExperienceDto import PastExperience
+from dtos.past_experience_dto import PastExperience
 
 
 class ProSellOrSupportCalculator:
